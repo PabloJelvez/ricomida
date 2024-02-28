@@ -1,0 +1,144 @@
+/* Reseteo de estilos */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos Body */
+body{
+    
+    font-family: "Cabin", sans-serif;
+}
+/* Estilos nabBar */
+.navbar-brand{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-size: 46px;
+}
+
+/* Estilos header */
+.header{
+    color: #373A3C;
+}
+header h1{
+    font-weight: 700;
+    font-size: 40px;
+}
+header h3{
+    font-weight: 700;
+    font-size: 20px;
+}
+.custom-tooltip {
+    --bs-tooltip-bg: #373A3C;
+    --bs-tooltip-color: #FFFFFF;
+  }
+.imgHeader{
+   width: 21rem;
+ }
+ header hr{
+    border-top: 2px solid black;
+    opacity: 0.75;
+ }
+/* 
+Estilos carrusel */
+.carousel-indicators #button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #373A3C;
+}
+.carousel-indicators{
+    position: absolute;
+    top: 99%;
+}
+
+/* Estilos sección ingredientes */
+#idIngredientes{
+    color: #373A3C;
+}
+.container h4{
+    font-weight: 700;
+    font-size: 25px;
+}
+.container li{
+    font-weight: 400;
+    font-size: 20px;
+}
+.container .ulIngredientes{
+    list-style: none;
+}
+.container hr{
+    border-top: 2px solid black;
+    opacity: 0.75;
+ }
+
+ /* Estilos sección Recetas */
+ #idRecetas{
+    color: #373A3C;
+ }
+ #recetasTitle{
+    font-weight: 700;
+    font-size: 40px;
+ }
+ .card-title{
+    font-weight: 700;
+    font-size: 23px;
+ }
+ .card-text{
+    font-weight: 400;
+    font-size: 16px;
+ }
+
+ /* Estilos sección newsLetter */
+ #newsLetter{
+    background-color: #DC3545;
+    color: #FFFFFF;
+ }
+ #newsLetter button{
+    width: 75%;
+ }
+ #newsLetter h3{
+    font-weight: 700;
+    font-size: 40px;
+ }
+ #newsLetter p{
+    font-weight: 400;
+    font-size: 30px;
+ }
+ #newsLetter span{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+ }
+
+ /* Estilos Footer */
+
+ footer{
+    background-color: #373A3C;
+    color: #FFFFFF;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-size: 46px;
+    
+ }
+
+
+ /* Reglas para pantallas grandes */
+
+ @media (min-width: 768px){
+    header #divTitles{
+        text-align: start;
+    }
+
+    .imgHeader{
+        text-align: start;
+      }
+
+      .container h4{
+        text-decoration: underline;
+    }
+
+    #newsLetter button{
+        width: 15%;
+     }
+ }
